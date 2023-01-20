@@ -32,6 +32,7 @@ depth = args.depth
 dbpath = args.dbpath if len(args.dbpath) > 0 else os.path.join(os.getcwd(),'duplicate.db')
 out_type = args.out if len(args.out) > 0 else None
 
+
 s_path = os.path.abspath(s_path)
 
 
